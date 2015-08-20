@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.BagdeValue = @"33";
+    [self play];
+}
+
+-(void)play
+{
+    NSLog(@"打!");
 }
 
 - (void)didReceiveMemoryWarning {
